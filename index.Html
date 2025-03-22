@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ultimate Fencing Arena</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+            color: #ffffff;
+        }
+
+        header {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .intro {
+            text-align: center;
+            margin: 3rem 0;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .media-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+
+        .media-card {
+            background: #333;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .media-card:hover {
+            transform: translateY(-5px);
+        }
+
+        img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .disciplines {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+
+        .discipline-card {
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .history-link {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: #b71c1c;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            margin: 2rem 0;
+            transition: background 0.3s ease;
+        }
+
+        .history-link:hover {
+            background: #8b0000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #000;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Ultimate Fencing Arena</h1>
+        <p>Fencing: The Art of Swordplay and Strategy</p>
+    </header>
+
+    <div class="container">
+        <section class="intro">
+            <p>Fencing is a dynamic and fast-paced combat sport that combines agility, precision, and tactical thinking. Rooted in centuries-old traditions of sword fighting, modern fencing is an Olympic sport featuring three distinct disciplines: foil, épée, and sabre. Each requires unique techniques, strategies, and equipment.
+
+Fencers compete in one-on-one bouts, aiming to score points by landing touches on their opponent while defending against attacks. The sport demands not only physical speed and endurance but also mental sharpness, making it a thrilling blend of athleticism and strategy.
+
+Whether you’re a beginner or an experienced fencer, this sport offers endless opportunities for skill development, competition, and personal growth.</p>
+        </section>
+
+        <div class="media-grid">
+            <div class="media-card">
+                <img src="/se/Image/Messenger_creation_6367F6E3-3EA3-4716-A532-0E2AC328A383.jpeg" alt="Fencing action shot">
+            </div>
+            <div class="media-card">
+                <img src="/se/Image/Messenger_creation_DAF50187-39A2-4277-A418-FF607388975C.jpeg" alt="Fencing equipment">
+            </div>
+            <div class="media-card">
+                <img src="/se/Image/Messenger_creation_F0F7E9F2-93F9-4780-95C4-8F15034F3A69.jpeg" alt="Fencing competition">
+            </div>
+        </div>
+
+        <section class="disciplines">
+            <div class="discipline-card">
+                <h3>Foil</h3>
+                <p>Precision and technique</p>
+            </div>
+            <div class="discipline-card">
+                <h3>Épée</h3>
+                <p>Strategic combat</p>
+            </div>
+            <div class="discipline-card">
+                <h3>Sabre</h3>
+                <p>Speed and agility</p>
+            </div>
+        </section>
+
+        <div class="media-grid">
+            <div class="media-card">
+                <div class="video-container">
+                    <iframe src="https://youtu.be/Q6-aH-op4g4?si=iw011zPINQVmhKkx" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="media-card">
+                <div class="video-container">
+                    <iframe src="https://youtube.com/watch?v=wojW_7fUMC4&si=dxD6d5m2vsteLIQ1" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <center>
+            <a href="https://fencefap.com/the-history-of-fencing/" class="history-link">Explore Fencing History →</a>
+        </center>
+    </div>
+
+    <footer>
+        <p>© 2025 The Ultimate Fencing Arena | Made with Passion
+        <br />
+         Created by BUENAVENTURA JHONEL C 
+12- SPORTS ARCHERY </p>
+    </footer>
+</body>
+</html>
